@@ -1,0 +1,70 @@
+    1  pwd -a
+    2  ls -a
+    3  vim .bashrc
+    4  vimtutor
+    5  p
+    6  echo $HOME
+    7  env
+    8  history
+    9  history 9
+   10  history 12
+   11  echo $HOME
+   12  ps aux
+   13  id
+   14  cat /ext/passwd
+   15  cat etc/passwd
+   16  cd
+   17  cat /etc/passwd
+   18  apt install tree
+   19  sudo apt install tree
+   20  tree
+   21  sudo apt install tree
+   22  sudo apt update
+   23  apt list --upgfadable
+   24  apt list --upgradable
+   25  sudo apt upgrade
+   26  sudo apt install tree
+   27  sudo apt autoremove
+   28  tree
+   29  man apt
+   30  whereis tree
+   31  sudo install git
+   32  sudo apt install git
+   33  cat git
+   34  git -v
+   35  git --version
+   36  sudo apt update
+   37  git config --global user.name "Yulia K"
+   38  git config --global user.email "workmail.yulia@gmail.com"
+   39  mkdir 11
+   40  ls -la
+   41  cd 11
+   42  ls -la
+   43  git init
+   44  git status
+   45  touch file.md
+   46  ls
+   47  tree
+   48  echo '#hello' >file.md
+   49  git add file.md
+   50  git commit -m 'init project'
+   51  echo 'first change' >> file.md
+   52  cat file.md
+   53  git add file.md
+   54  git commit -m 'first update'
+   55  git log
+   56  git log -p
+   57  echo 'new line' > file.md
+   58  cat file.md
+   59  tree
+   60  git log -p
+   61  git add file.md
+   62  git commit -m 'update2'
+   63  git log -p
+   64  git status
+   65  history
+   66  history > lerning day1.txt
+   67  ls
+   68  rm learning
+   69  rm lerning
+   70  history > learning-day1

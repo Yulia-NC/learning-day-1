@@ -1,0 +1,31 @@
+  131  mkdir 22
+  132  cd 22
+  133  git init --bare
+  134  ls
+  135  cd 11
+  136  cd ..
+  137  cd 11
+  138  git clone ~/22 clone
+  139  cd clone
+  140  git remote -v
+  141  cat .git/config
+  142  echo "happy day" > REDME.md
+  143  git add README.md
+  144  mv README.md >REDME.md
+  145  mv README.md > REDME.md
+  146  mv REDME.md > README.md
+  147  mv REDME.md README.md
+  148  echo "happy day" > README.md
+  149  ..
+  150  cd ..
+  151  git status
+  152  rm .gitignore
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -am 'day 1.1'
+  157  git history 10
+  158  history 10
+  159  history 20
+  160  history 30
+  161  history 31 > day-1-1.txt
